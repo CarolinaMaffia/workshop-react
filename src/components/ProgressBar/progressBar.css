@@ -1,8 +1,6 @@
 .progressBar {
 	margin-bottom: 26px;
-	margin-bottom: 1.66em;
-	position: relative;
-	
+	margin-bottom: 1.66em;	
 }
 .progressBar h4 {
 	font-size: 16px;
@@ -15,7 +13,6 @@
 	width: 100%;
 	height: 10px;
 	background: #E1E1E1!important;
-	overflow: hidden;
 	border-radius: 0.3em;
 }
 .progressBarValue {
@@ -27,12 +24,13 @@
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
 	transition: width 1000ms ease-in-out;
+	position: relative;
 }
 
 .speech-bubble {
+	position: absolute;
 	font-size: 0.75em;
     line-height: 2em;
-    position: absolute;
     background: #a487b2;
     top: -3em;
     right: 0;
@@ -49,6 +47,5 @@
 	content: "";
 	margin-left: -0.5em;
 	position: absolute;
-	bottom: -50%;
-	left: 50%;
+	bottom: -2em;
 }

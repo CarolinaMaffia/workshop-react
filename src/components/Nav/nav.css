@@ -1,0 +1,33 @@
+nav{
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    top: 2%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    padding: 10px;
+    color: white;
+    float: right;
+    margin-right: 5px;
+    width: 6%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    background: red;
+}

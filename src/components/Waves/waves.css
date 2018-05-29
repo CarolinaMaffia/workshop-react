@@ -1,0 +1,26 @@
+.waves svg{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 1;
+    transition: all 1s ease-in;
+    top: 1px;
+}
+
+#path0Fill {
+    animation: waves 1.8s ease-in infinite;
+  }
+
+#path1Fill {
+    animation: waves 2s ease-in infinite;
+}
+
+/* KEYFRAMES */
+
+@keyframes waves {
+    0% { transform: translateY(0px);}
+    50% { transform: translateY(10px);}
+    0% { transform: translateY(0px);}
+  }

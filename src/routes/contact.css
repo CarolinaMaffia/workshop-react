@@ -1,0 +1,135 @@
+.sidebar{
+    height: 100%;
+    width: 30%;
+    min-width: 255px;
+    max-width: 310px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #2E1437;
+  }
+  
+  .profile{
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 10%;
+  }
+  
+  .information{
+      width: 75.86%;
+      float:left;
+      color: #DD2476;
+      background-color: white;
+      height: 104.5vh;
+  }
+  
+  .information p {
+      color: grey;
+      font-size: 14px;
+  }
+  
+  .information h2{
+      font-weight: 400;
+      color: #2E1437;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.25;
+      letter-spacing: -.1rem;
+  }
+  
+  .info-container{
+      padding: 5%;
+  }
+  
+  .parraf{
+      color: #DD2476;
+      font-size: 16px;
+  }
+  
+  nav{
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  nav a{
+      color:  #2E1437;
+  }
+  nav a:visited{
+      color:  #2E1437;
+  }
+
+
+  /*********** animaciones **********/
+  .delayone {
+    -moz-animation-delay: .2s;
+    -webkit-animation-delay: .2s;
+  }
+  .delaytwo {
+    -moz-animation-delay: .4s;
+    -webkit-animation-delay: .4s;
+  }
+  .delaythree {
+    -moz-animation-delay: .6s;
+    -webkit-animation-delay: .6s;
+  }
+  .delayfour {
+    -moz-animation-delay: .8s;
+    -webkit-animation-delay: .8s;
+  }
+  .delayfive {
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+  }
+  .delaysix {
+    -moz-animation-delay: 1.4s;
+    -webkit-animation-delay: 1.4s;
+  }
+
+/*********** icon styles **********/
+  .icon {
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+    display: block;
+    color: white;
+    font-size: 3em;
+    /* @include transition(all .2s $ease-out-circ); */
+  }
+
+  #circ {
+    max-width: 100%;
+    min-height: 200px;
+    width: 1280px;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 80px;
+    width: 100%;
+  }
+
+.list-icon {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px 20px 20px;
+    text-align: center;
+    background:  #DD2476;;
+    border: solid 8px ;
+    position: relative;
+  /* @include transition(all .4s); */
+}
+.list-icon:hover {
+      border: solid 8px black;
+      /* @include transition(all .4s); */
+      cursor: pointer;
+    }

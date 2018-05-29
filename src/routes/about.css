@@ -1,0 +1,62 @@
+.sidebar{
+  height: 100%;
+  width: 30%;
+  min-width: 255px;
+  max-width: 310px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #2E1437;
+}
+
+.profile{
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10%;
+}
+
+.information{
+    width: 75.86%;
+    float:left;
+    color: #DD2476;
+    background-color: white;
+    height: 104.5vh;
+}
+
+.information p {
+    color: grey;
+    font-size: 14px;
+}
+
+.information h2{
+    font-weight: 400;
+    color: #2E1437;
+    font-family: 'Open Sans', sans-serif;
+	line-height: 1.25;
+	letter-spacing: -.1rem;
+}
+
+.info-container{
+    padding: 5%;
+}
+
+.parraf{
+    color: #DD2476;
+    font-size: 16px;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+nav a{
+    color:  #2E1437;
+}
+nav a:visited{
+    color:  #2E1437;
+}

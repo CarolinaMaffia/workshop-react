@@ -16,6 +16,8 @@
 	border-radius: 0.3em;
 }
 .progressBarValue {
+	position: relative;
+	width: 0;
 	height: 10px;
 	float: left;
 	border-radius: 0.3em;
@@ -23,8 +25,7 @@
 	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
-	transition: width 1000ms ease-in-out;
-	position: relative;
+	transition: width 2000ms ease-in-out;
 }
 
 .speech-bubble {
